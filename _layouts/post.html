@@ -59,10 +59,10 @@ published: true
         {% endif %}
 
         <!-- Related Posts -->
-        {% assign related_posts = site.articles | where_exp:"post", "post.url != page.url" | sample: 3 %}
+        {% assign related_posts = site.posts | where_exp:"post", "post.url != page.url" | sample: 3 %}
         {% if related_posts.size > 0 %}
         <section class="mt-8">
-            <h2 class="text-xl font-semibold mb-4">Related Articles</h2>
+            <h2 class="text-xl font-semibold mb-4">Related Posts</h2>
             <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {% for post in related_posts %}
                 <article class="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
