@@ -1,23 +1,13 @@
 ---
-layout: compress
-published: true
+permalink: /404.html
+layout: 404
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% include head.html %}
-    <title>Page Not Found - 404 Error - {{ site.title }}</title>
-    <meta name="description" content="The page you're looking for doesn't exist. Return to the homepage or browse our latest articles.">
-    <meta name="robots" content="noindex, nofollow">
-</head>
-<body class="bg-white text-gray-700">
-    {% include header.html %}
-    
-    <main class="mx-auto min-h-[85vh] max-w-4xl py-6 px-4 flex flex-col gap-y-4">
-        {{ content }}
-    </main>
-    
-    {% include footer.html %}
-</body>
-</html>
+<div class="grid gap-3 gap-y-4 grid-cols-3 sm:grid-cols-4 lg:grid-cols-6">
+  <div class="h-[80vh] col-span-3 sm:col-span-4 lg:col-span-6 flex justify-center items-center">
+    <div class="text-2xl font-light mr-3 pr-3 border-r border-gray-400 align-top leading-loose">
+      404
+    </div>
+    <div class="text-sm">Page Not Found</div>
+  </div>
+</div>
