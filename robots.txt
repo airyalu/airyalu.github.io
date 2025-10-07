@@ -1,4 +1,7 @@
+---
+layout: null
+---
 User-Agent: *
-Disallow: 
+Disallow:
 
-Sitemap: https://airyalu.github.io/sitemap/sitemap.xml
+Sitemap: {{ site.url }}/sitemap/sitemap.xml
