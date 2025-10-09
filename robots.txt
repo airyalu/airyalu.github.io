@@ -1,7 +1,0 @@
----
-layout: null
----
-User-Agent: *
-Disallow:
-
-Sitemap: {{ site.url }}/sitemap/sitemap.txt
