@@ -1,15 +1,6 @@
 ---
 layout: default
 ---
-<div class="bg-yellow-100 p-4 mb-4 rounded text-sm">
-  <strong>Debug Pagination:</strong><br>
-  Total Posts: {{ site.posts.size }}<br>
-  Paginator Posts: {{ paginator.posts.size }}<br>
-  Current Page: {{ paginator.page }}<br>
-  Total Pages: {{ paginator.total_pages }}<br>
-  Previous Page: {{ paginator.previous_page }}<br>
-  Next Page: {{ paginator.next_page }}
-</div>
 {% if paginator.posts.size > 0 %}
 <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
     {% for post in paginator.posts %}
