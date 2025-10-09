@@ -1,4 +1,1 @@
----
-layout: null
----
-{{ site.url }}/sitemap/sitemap-001.txt
+https://airyalu.github.io/sitemap/sitemap-001.txt
